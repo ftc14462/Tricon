@@ -2149,7 +2149,7 @@ es360y = es360_offsets*np.cos(es360_azimuths*np.pi/180)
 # Plot the data
 #plt.plot(xpoints, ypoints,marker=11)
 plt.plot(txbx, txby,'o',label='txb')
-plt.plot(es360x, es360y,'o-',label='es360')
+plt.plot(es360x, es360y,'v-',label='es360')
 plt.title(f'depth = {depth}m')
 plt.legend()
 
